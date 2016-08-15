@@ -17,7 +17,7 @@ class MinitestPracticeTest < Minitest::Test
   def teardown
     @main = nil
   end
-=begin
+
   def test_odd?
     assert_equal true , @main.odd?(1)
     assert_equal true , @main.odd?(3)
@@ -26,6 +26,8 @@ class MinitestPracticeTest < Minitest::Test
     assert_equal true , @main.odd?(2135)
     assert_equal false , @main.odd?(4116)
   end
+
+=begin
   def test_check_number?
     assert_equal false, @main.check_number?(1)
     assert_equal false, @main.check_number?(12)

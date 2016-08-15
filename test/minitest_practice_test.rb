@@ -27,7 +27,6 @@ class MinitestPracticeTest < Minitest::Test
     assert_equal false , @main.odd?(4116)
   end
 
-=begin
   def test_check_number?
     assert_equal false, @main.check_number?(1)
     assert_equal false, @main.check_number?(12)
@@ -37,6 +36,7 @@ class MinitestPracticeTest < Minitest::Test
     assert_equal false, @main.check_number?('あいうえ')
   end
 
+=begin
   def test_enough_length?
     assert_equal false , @main.enough_length?(12)
     assert_equal true , @main.enough_length?(123)
